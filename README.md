@@ -7,6 +7,8 @@ deploy.sh 用于控制主流程
 使用示例：   
 
 ```
+chmod +x ./deploy.sh
+chmod +x ./jettyController.sh
 ./deploy.sh jetty /root/myProject.war
 ```   
 
