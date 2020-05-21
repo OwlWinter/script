@@ -76,7 +76,6 @@ ${BIN}/${SERVLET_NAME,,}Controller.sh stop ${SERVLET_HOME} ${WAR_PATH}
 
 deploy_war()
 {
-echo "deploy_war"
 ${BIN}/${SERVLET_NAME,,}Controller.sh deploy ${SERVLET_HOME} ${WAR_PATH}
 ${BIN}/${SERVLET_NAME,,}Controller.sh start ${SERVLET_HOME} ${WAR_PATH}
 }
