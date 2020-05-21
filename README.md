@@ -24,3 +24,7 @@ jetty 的附属控制脚本
 发布流程：
 清空 jetty 的 webapps 文件夹
 把 war 包复制过来并且生成一个同名 xml 配置文件
+
+resinController.sh
+resin 的附属控制脚本
+发布流通与 tomcat 脚本相同。
