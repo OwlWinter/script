@@ -19,7 +19,7 @@ RESIN_HOME="/usr/local/resin"
 
 SERVLET_NAME=${1^^}
 SERVLET_HOME=home
-WAR_PATH=$2
+WAR_PATH=$(readlink -f $2)
 BIN=$(cd `dirname $0`;pwd)
 
 readonly BIN
