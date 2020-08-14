@@ -22,7 +22,7 @@ case $OPTION in
 	pid=`ps aux | grep resin | grep -v grep | grep Dresin.watchdog | awk '{printf $2}'`
 
 	if [ -n "${pid}" ]; then
-		echo "=========TOMCAT : shutdown.sh========="
+		echo "=========Resin : shutdown.sh========="
 		${RESIN_HOME}/bin/resinctl stop
 		sleep 3
 		pid=`ps aux | grep resin | grep -v grep | grep Dresin.watchdog | awk '{printf $2}'` 
