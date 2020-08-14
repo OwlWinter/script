@@ -14,6 +14,7 @@ chmod +x ./jettyController.sh
 
 tomcatController.sh 
 tomcat 的附属控制脚本，一般不需要修改，除非想更改发布项目的方法
+
 发布流程：
 清空 tomcat 下的 webapps 文件夹
 并且把 myProject.war 文件复制到 webapps/ROOT/ 文件夹下解压
