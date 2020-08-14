@@ -31,7 +31,7 @@ readonly RESIN_HOME
 readonly JAVA_HOME
 
 
-precheck()
+pre_check()
 {
 echo "=============检查运行环境============="
 
@@ -81,6 +81,6 @@ ${BIN}/${SERVLET_NAME,,}Controller.sh start ${SERVLET_HOME} ${WAR_PATH}
 }
 
 # main workflow
-precheck
+pre_check
 clean_close
 deploy_war
