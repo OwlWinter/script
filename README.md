@@ -3,7 +3,7 @@
 
 
 deploy.sh 用于控制主流程   
-使用前需要补充一些信息: JAVA_HOME TOMCAT_HOME JETTY_HOME RESIN_HOME(resin 脚本暂时没有完成)   
+使用前需要补充一些信息: JAVA_HOME TOMCAT_HOME JETTY_HOME RESIN_HOME
 使用示例：   
 
 ```
